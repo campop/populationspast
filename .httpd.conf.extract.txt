@@ -1,0 +1,19 @@
+# Apache httpd.conf extract providing URL routing and other directives
+
+#   Example usage in httpd.conf:
+#   
+#   # Online atlas
+#   Include /path/to/online-atlas/.httpd.conf.extract.txt
+#   Use MacroPopulationsPast "/public-url/populationspast" "/path/to/online-atlas/:/path/to/smarty/:/path/to/php/libraries/" "/path/to/populationspast" "/path/to/online-atlas"
+
+
+<Macro MacroPopulationsPast $applicationBaseUrl $includePath $localRepoPath $baseRepoPath>
+	
+	# Local additions
+	Alias $applicationBaseUrl/images/about/ $localRepoPath/images/about/
+	
+	# Load base codebase
+	Include $baseRepoPath/.httpd.conf.extract.txt
+	Use MacroOnlineAtlas "$applicationBaseUrl" "$includePath" "$baseRepoPath" "Populations Past"
+	
+</Macro>
