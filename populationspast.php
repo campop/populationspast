@@ -277,14 +277,14 @@ class populationspast extends onlineAtlas
 	
 	
 	# About page
-	public function about ()
+	public function about ($path = false)
 	{
 		return parent::about ($this->extendedApplicationRoot);
 	}
 	
 	
 	# Funders page
-	public function funders ()
+	public function funders ($path = false)
 	{
 		return parent::funders ($this->extendedApplicationRoot);
 	}
