@@ -1,6 +1,6 @@
 <?php
 
-# Class implementing the populationspast online atlas
+# Class implementing the Campop online atlas
 require_once ('online-atlas/onlineAtlas.php');
 class populationspast extends onlineAtlas
 {
@@ -194,7 +194,7 @@ class populationspast extends onlineAtlas
 				),
 				'TYPE' => array (
 					'label' => 'Type of place',
-					'description' => 'Types of places are defined by the occupational structure of registration sub-district (RSD). The classification consists of eight types: agriculture, mining, other urban, professional, semi-professional, semi-rural, textile and transport.',
+					'description' => 'Types of places are defined by the occupational structure of registration sub-district (RSD).',
 					'intervals' => array (
 						'agriculture'		=> '#74b273',
 						'semi-rural'		=> '#d2ffbe',
