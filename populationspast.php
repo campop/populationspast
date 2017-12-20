@@ -299,10 +299,10 @@ class populationspast extends onlineAtlas
 	}
 	
 	
-	# Funders page
-	public function funders ($path = false)
+	# Acknowledgements page
+	public function acknowledgements ($path = false)
 	{
-		return parent::funders ($this->extendedApplicationRoot);
+		return parent::acknowledgements ($this->extendedApplicationRoot);
 	}
 }
 
