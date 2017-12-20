@@ -37,6 +37,11 @@ class populationspast extends onlineAtlas
 			// Datasets
 			'datasets' => array (1851, 1861, 1881, 1891, 1901, 1911),
 			
+			// More detailed datasets when close in
+			'closeDatasets' => array (1851, 1861, 1881, 1891, 1901, 1911),
+			'closeName' => 'parish',
+			'closeZoom' => 10,
+			
 			// Fields
 			'defaultField' => 'TMFR',
 			'fields' => array (
