@@ -41,6 +41,10 @@ class populationspast extends onlineAtlas
 			'closeDatasets' => array (1851, 1861, 1881, 1891, 1901, 1911),
 			'closeName' => 'parish',
 			'closeZoom' => 10,
+			'closeModeSimplifyFar' => 500,
+			
+			// Disable zoomed out mode
+			'zoomedOut' => false,
 			
 			// Fields
 			'defaultField' => 'TMFR',
