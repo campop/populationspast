@@ -174,7 +174,7 @@ class populationspast extends onlineAtlas
 				'POP_DENS' => array (
 					'label' => 'Population Density',
 					'description' => 'The number of people per acre (one acre is 4047m2)',
-					'intervals' => '0-1, 1-5, 5-50, 50-100, 100-150, 200-300, 300+',
+					'intervals' => '0-1, 1-5, 5-50, 50-100, 100-200, 200-300, 300+',
 				),
 				'HOUSE_SERV' => array (
 					'label' => 'Houses with a live-in servant',
