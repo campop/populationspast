@@ -35,10 +35,10 @@ class populationspast extends onlineAtlas
 			'downloadFilenameBase' => 'populationspast',
 			
 			// Datasets
-			'datasets' => array (1851, 1861, 1881, 1891, 1901, 1911),
+			'datasets' => array (1851, 1861, 1871, 1881, 1891, 1901, 1911),
 			
 			// More detailed datasets when close in
-			'closeDatasets' => array (1851, 1861, 1881, 1891, 1901, 1911),
+			'closeDatasets' => array (1851, 1861, 1871, 1881, 1891, 1901, 1911),
 			'closeName' => 'parish',
 			'closeZoom' => 10,
 			'closeModeSimplifyFar' => 500,
