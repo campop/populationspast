@@ -47,7 +47,7 @@ class populationspast extends onlineAtlas
 			'zoomedOut' => false,
 			
 			// Fields
-			'defaultField' => 'TMFR',
+			'defaultField' => 'IMR',
 			'generalFields' => array (
 				
 				// General fields
