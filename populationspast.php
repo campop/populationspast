@@ -188,7 +188,7 @@ class populationspast extends onlineAtlas
 					'SP_FAM' => array (
 						'label' => 'Single parent households',
 						'description' => 'Households containing a single-parent family, as a percentage of all households',
-						'intervals' => '0-4, 4-5.5, 5.5-7, 7-8.5, 8.5-10, 10-11.5, 11.5+',
+						'intervals' => '0-2.5, 2.5-4, 4-5.5, 5.5-7.0, 7.0-8.5, 8.5-10, 10+',
 					),
 					'SINGLE_PER' => array (
 						'label' => 'Single person households',
