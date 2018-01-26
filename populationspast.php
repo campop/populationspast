@@ -210,7 +210,7 @@ class populationspast extends onlineAtlas
 					'intervals' => '0-35, 35-40, 40-45, 45-50, 50-55, 55-60, 60+',
 					'grouping' => 'Age structure',
 				),
-				'ELD_WORK_AGE' => array (
+				'ELD_WORK_A' => array (
 					'label' => 'Elderly dependency ratio',
 					'description' => 'The number of elderly people per 100 working-age people',
 					'intervals' => '0-4, 4-6, 6-8, 8-10, 10-12, 12-14, 14+',
