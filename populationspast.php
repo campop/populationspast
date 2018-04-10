@@ -31,8 +31,9 @@ class populationspast extends onlineAtlas
 				. '<p>Populationspast.org, the Atlas of Victorian and Edwardian Population, enables you to explore demographic changes from 1851-1911.</p>'
 				. '<p>Please note that various improvements are still being made to the site.</p>',
 			
-			// Download filename base
+			// CSV downloads
 			'downloadFilenameBase' => 'populationspast',
+			'downloadInitialNotice' => "This data has been produced by the 'Atlas of Victorian Fertility Decline' project (PI: A.M. Reid) with funding from the ESRC (ES/L015463/1), using an enhanced version of data from Schürer, K. and Higgs, E. (2014). Integrated Census Microdata (I-CeM), 1851?1911. [data collection]. Colchester, Essex: UK Data Archive [distributor]. SN: 7481, http://dx.doi.org/10.5255/UKDA-SN-7481-1.",
 			
 			// Datasets
 			'datasets' => array (1851, 1861, 1871, 1881, 1891, 1901, 1911),
