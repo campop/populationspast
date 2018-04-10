@@ -40,7 +40,7 @@ class populationspast extends onlineAtlas
 			
 			// More detailed datasets when close in
 			'closeDatasets' => array (1851, 1861, 1871, 1881, 1891, 1901, 1911),
-			'closeName' => 'parish',
+			'closeName' => 'subdist',
 			'closeZoom' => 10,
 			'closeModeSimplifyFar' => 500,
 			
