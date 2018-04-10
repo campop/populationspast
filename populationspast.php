@@ -447,6 +447,13 @@ class populationspast extends onlineAtlas
 	{
 		return parent::acknowledgements ($this->extendedApplicationRoot);
 	}
+	
+	
+	# Contacts page
+	public function contacts ()
+	{
+		return parent::contacts ($this->extendedApplicationRoot);
+	}
 }
 
 ?>
