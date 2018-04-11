@@ -47,6 +47,9 @@ class populationspast extends onlineAtlas
 			// Disable zoomed out mode
 			'zoomedOut' => false,
 			
+			// Unknown values
+			'colourUnknown' => false,
+			
 			// Fields
 			'defaultField' => 'IMR',
 			'fields' => array (
