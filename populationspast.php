@@ -70,6 +70,18 @@ class populationspast extends onlineAtlas
 					'intervals' => '',
 					'general' => true,
 				),
+				'POP' => array (
+					'label' => 'Population',
+					'description' => 'Population',
+					'intervals' => '',
+					'general' => true,
+				),
+				'ACRES' => array (
+					'label' => 'Acreage',
+					'description' => 'Acreage',
+					'intervals' => '',
+					'general' => true,
+				),
 				
 				'POP_DENS' => array (
 					'label' => 'Population density',
@@ -396,6 +408,8 @@ class populationspast extends onlineAtlas
 			  `REGCNTY` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL COMMENT 'County',
 			  `REGDIST` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL COMMENT 'Registration district',
 			  `SUBDIST` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL COMMENT 'Sub-district',
+			  `POP` INT(11) COLLATE utf8_unicode_ci NULL COMMENT 'Population',
+			  `ACRES` DECIMAL(14,7) COLLATE utf8_unicode_ci NULL COMMENT 'Acreage',
 		";
 		
 		# Add each field
