@@ -412,10 +412,10 @@ class populationspast extends onlineAtlas
 			  `ACRES` DECIMAL(14,7) COLLATE utf8_unicode_ci NULL COMMENT 'Acreage',
 		";
 		
-		# Add each field
+		# Add each data field
 		foreach ($this->settings['fields'] as $field => $attributes) {
 			if (in_array ($field, array ('TYPE'))) {continue;}
-			$sql .= "\n\t\t\t  `{$field}` DECIMAL(14,7) NOT NULL COMMENT '" . str_replace ("'", "\\'", $attributes['label']) . "',";
+			$sql .= "\n\t\t\t  `{$field}` DECIMAL(14,7) NULL COMMENT '" . str_replace ("'", "\\'", $attributes['label']) . "',";
 		}
 		
 		# Add TYPE field
