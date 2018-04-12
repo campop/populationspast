@@ -43,6 +43,7 @@ class populationspast extends onlineAtlas
 			'closeName' => 'subdist',
 			'closeZoom' => 10,
 			'closeField' => 'SUBDIST',
+			'farField' => 'REGDIST',
 			'closeModeSimplifyFar' => 500,
 			
 			// Disable zoomed out mode
