@@ -42,6 +42,7 @@ class populationspast extends onlineAtlas
 			'closeDatasets' => array (1851, 1861, 1871, 1881, 1891, 1901, 1911),
 			'closeName' => 'subdist',
 			'closeZoom' => 10,
+			'closeField' => 'SUBDIST',
 			'closeModeSimplifyFar' => 500,
 			
 			// Disable zoomed out mode
