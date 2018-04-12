@@ -460,6 +460,13 @@ class populationspast extends onlineAtlas
 	}
 	
 	
+	# Resources page
+	public function resources ()
+	{
+		return parent::resources ($this->extendedApplicationRoot);
+	}
+	
+	
 	# Acknowledgements page
 	public function acknowledgements ($path = false)
 	{
