@@ -16,6 +16,37 @@
 <p>The measures shown in the maps on this website have mainly been derived from the computerised individual level census enumerators&#39; books (and household schedules for 1911) for England and Wales enhanced under the I-CeM project. See Sch&uuml;rer, K. and Higgs, E. (2014). <em>Integrated Census Microdata (I-CeM), 1851</em>?<em>1911</em>. [data collection]. Colchester, Essex: UK Data Archive [distributor]. SN: 7481, <a href="http://dx.doi.org/10.5255/UKDA-SN-7481-1">http://dx.doi.org/10.5255/UKDA-SN-7481-1</a>. I-CeM does not currently include data for 1871, although the project has been able to access a version of the data for that year it does not contain information necessary to calculate many of the variables presented here. Users should therefore beware of the missing time points on many of the graphs provided.</p>
 <p>Additional data, for some indicators, has been derived from the civil registration of birth, deaths and marriage, which was introduced in England and Wales in 1837. We have transcribed parts of the tables summarising these events by year and areas, which were published by the Registrar General in his quarterly, annual and decennial reports of births, deaths and marriages. Summary mortality data for England and Wales were taken from the Human Mortality Database, www.mortality.org.</p>
 
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+	
+	$(function() {
+		
+		// Pre-process the page to add a class to each h3 block, to match the structure given at: https://jqueryui.com/accordion/
+		$('body.about #toggle h3').each(function() {
+			$(this).prepend ('<i class="fa fa-chevron-circle-right iconrotate"></i> ');
+			$(this).nextUntil('h2, h3').wrapAll('<div class="graybox" />');	// See: http://stackoverflow.com/questions/7968303/wrapping-a-series-of-elements-between-two-h2-tags-with-jquery
+		});
+		
+		// Simple toggle, as jQuery Accordion seems not to work; see: http://www.jacklmoore.com/notes/jquery-accordion-tutorial/
+		$('body.about #toggle div').hide ();
+		$('body.about #toggle h3').click(function(e){
+			e.preventDefault();
+			$(this).next('div').slideToggle();
+	
+			if ($('i', this).css('transform') == 'none') {
+				$('i', this).css('transform', 'rotate(90deg)');
+			} else {
+				$('i', this).css('transform', 'none');
+			}
+		});
+	});
+	
+</script>
+
+<div id="toggle">
+
 <h2>Place characteristics</h2>
 
 <h3 class="TYPE">Type of place</h3>
@@ -363,3 +394,5 @@
 <p>By the age of 14-18, more girls and boys were recorded as being in paid employment, although regional differences are evident. Similar percentages (about 44 per cent) of girls were working in TEXTILE areas as boys. For girls TEXTILE areas had the most extensive work opportunities by some way, but for boys opportunities were more plentiful in MINING areas where there was rather little paid work available for girls. PROFESSIONAL areas had similar percentages (about 30 per cent) of girls and boys in work: for boys, but not for girls, this figure was low compared to other places. Both the sons and daughters of the middle classes and non-manual workers were likely to have stayed at school longer, but there were more employment opportunities for the daughters of the manual classes in these places, and teenage girls were also likely to have migrated in to work as servants for the better-off.</p>
 <p><img src="/images/about/cl4.png" alt="Children working" width="600" height="377" /></p>
 <p><img src="/images/about/cl5.png" alt="Children working" width="600" height="377" /></p>
+
+</div>
