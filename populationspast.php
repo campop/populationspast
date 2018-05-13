@@ -87,6 +87,12 @@ class populationspast extends onlineAtlas
 					'intervals' => '',
 					'general' => true,
 				),
+				
+				'_' => array (
+					'label' => '[Show background map only]',
+					'description' => 'Removes data from the map, showing only the background',
+					'intervals' => '',
+				),
 				'POP_DENS' => array (
 					'label' => 'Population density',
 					'description' => 'The number of people per acre',
