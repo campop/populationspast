@@ -12,6 +12,7 @@
 	# Local additions
 	Alias $applicationBaseUrl/images/about/ $localRepoPath/images/about/
 	Alias $applicationBaseUrl/images/logos/ $localRepoPath/images/logos/
+	Alias $applicationBaseUrl/images/preview.png $localRepoPath/images/preview.png
 	Alias $applicationBaseUrl/resources/ $localRepoPath/resources/
 	
 	# Load base codebase
