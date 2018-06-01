@@ -253,6 +253,24 @@ class populationspast extends onlineAtlas
 					'intervals' => '<4, 4 - <6, 6 - <8, 8 - <10, 10 - <12, 12 - <14, ≥14',
 					'grouping' => 'Age structure',
 				),
+				'AV_AGE' => array (
+					'label' => 'Average age',
+					'description' => 'Average age',
+					'intervals' => '<18, 18 - <24, 24 - <27, 27 - <30, 30 - <40, 40 - <55, ≥55',
+					'grouping' => 'Age structure',
+				),
+				'AV_AGE_F' => array (
+					'label' => 'Average age for women',
+					'description' => 'Average age for women',
+					'intervals' => '<18, 18 - <24, 24 - <27, 27 - <30, 30 - <40, 40 - <55, ≥55',
+					'grouping' => 'Age structure',
+				),
+				'AV_AGE_M' => array (
+					'label' => 'Average age for men',
+					'description' => 'Average age for men',
+					'intervals' => '<18, 18 - <24, 24 - <27, 27 - <30, 30 - <40, 40 - <55, ≥55',
+					'grouping' => 'Age structure',
+				),
 				
 				'IRISH_BORN' => array (
 					'label' => 'Irish born',
