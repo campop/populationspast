@@ -109,7 +109,7 @@ class populationspast extends onlineAtlas
 						'mining'			=> '#cd6667',
 						'textile'			=> '#aa66cd',
 						'transport'			=> '#ffaa01',
-						'otherUrban'		=> '#b2b2b2',
+						'other urban'		=> '#b2b2b2',
 					),
 				),
 				// Population (POP) for download only
