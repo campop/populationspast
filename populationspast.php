@@ -223,7 +223,7 @@ class populationspast extends onlineAtlas
 				'HH_KIN' => array (
 					'label' => 'Households with kin',
 					'description' => 'Households containing people related to the head but not his/her immediate family, as percentage of all households',
-					'intervals' => '<1, 1 - <1.5, 1.5 - <2, 2 - <2.5, 2.5 - <3, 3 - <3.5, 3.≥5',
+					'intervals' => '<1, 1 - <1.5, 1.5 - <2, 2 - <2.5, 2.5 - <3, 3 - <3.5, ≥3.5',
 					'unavailable' => array (1871),
 					'grouping' => 'Households',
 				),
