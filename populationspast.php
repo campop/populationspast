@@ -256,19 +256,19 @@ class populationspast extends onlineAtlas
 				'AV_AGE' => array (
 					'label' => 'Average age',
 					'description' => 'Average (mean) age of the population',
-					'intervals' => '<24, 24 - <26, 26 - <27, 27 - <28, 28 - <29, 29 - <31, ≥31',
+					'intervals' => '<24, 24 - <26, 26 - <28, 28 - <30, 30 - <32, 32 - <34, ≥34',
 					'grouping' => 'Age structure',
 				),
 				'AV_AGE_F' => array (
 					'label' => 'Average age for women',
 					'description' => 'Average (mean) age of the female population',
-					'intervals' => '<24, 24 - <26, 26 - <27, 27 - <28, 28 - <29, 29 - <31, ≥31',
+					'intervals' => '<24, 24 - <26, 26 - <28, 28 - <30, 30 - <32, 32 - <34, ≥34',
 					'grouping' => 'Age structure',
 				),
 				'AV_AGE_M' => array (
 					'label' => 'Average age for men',
 					'description' => 'Average (mean) age of the male population',
-					'intervals' => '<24, 24 - <26, 26 - <27, 27 - <28, 28 - <29, 29 - <31, ≥31',
+					'intervals' => '<24, 24 - <26, 26 - <28, 28 - <30, 30 - <32, 32 - <34, ≥34',
 					'grouping' => 'Age structure',
 				),
 				
