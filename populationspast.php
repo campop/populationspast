@@ -524,7 +524,7 @@ class populationspast extends onlineAtlas
 	
 	
 	# Resources page
-	public function resources ()
+	public function resources ($path = false)
 	{
 		return parent::resources ($this->extendedApplicationRoot);
 	}
@@ -538,7 +538,7 @@ class populationspast extends onlineAtlas
 	
 	
 	# Contacts page
-	public function contacts ()
+	public function contacts ($path = false)
 	{
 		return parent::contacts ($this->extendedApplicationRoot);
 	}
