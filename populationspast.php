@@ -480,8 +480,9 @@ class populationspast extends onlineAtlas
 		
 		# Add each data field
 		foreach ($this->settings['fields'] as $field => $attributes) {
-			if (in_array ($field, array ('TYPE'))) {continue;}
-			$sql .= "\n\t\t\t  `{$field}` DECIMAL(14,7) NULL COMMENT '" . str_replace ("'", "\\'", $attributes['label']) . "',";
+			if (!isSet ($attributes['general']) && !in_array ($field, array ('TYPE', '_'))) {
+				$sql .= "\n\t\t\t  `{$field}` DECIMAL(14,7) NULL COMMENT '" . str_replace ("'", "\\'", $attributes['label']) . "',";
+			}
 		}
 		
 		# Add TYPE field
