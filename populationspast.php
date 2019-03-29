@@ -511,7 +511,7 @@ class populationspast extends onlineAtlas
 	
 	
 	# Home page
-	public function home ($aboutPath = false)
+	public function home ($aboutPath = false, $additionalCss = false)
 	{
 		return parent::home ($this->extendedApplicationRoot);
 	}
