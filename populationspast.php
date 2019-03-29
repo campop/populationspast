@@ -53,6 +53,7 @@ class populationspast extends onlineAtlas
 			'colourUnknown' => false,
 			
 			// Fields
+			'expandableHeadings' => true,
 			'defaultField' => 'IMR',
 			'fields' => array (
 				
