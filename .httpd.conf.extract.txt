@@ -4,10 +4,10 @@
 #   
 #   # Online atlas
 #   Include /path/to/online-atlas/.httpd.conf.extract.txt
-#   Use MacroPopulationsPast "/public-url/populationspast" "/path/to/online-atlas/:/path/to/smarty/:/path/to/php/libraries/" "/path/to/populationspast" "/path/to/online-atlas"
+#   Use MacroPopulationsPast "/public-url/populationspast" "/path/to/populationspast" "/path/to/online-atlas" "/path/to/online-atlas/:/path/to/smarty/:/path/to/php/libraries/"
 
 
-<Macro MacroPopulationsPast $applicationBaseUrl $includePath $localRepoPath $baseRepoPath>
+<Macro MacroPopulationsPast $applicationBaseUrl $localRepoPath $baseRepoPath $includePath>
 	
 	# Load base codebase
 	Include $baseRepoPath/.httpd.conf.extract.txt
