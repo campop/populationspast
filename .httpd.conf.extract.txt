@@ -9,14 +9,8 @@
 
 <Macro MacroPopulationsPast $applicationBaseUrl $includePath $localRepoPath $baseRepoPath>
 	
-	# Local additions
-	Alias $applicationBaseUrl/images/about/ $localRepoPath/images/about/
-	Alias $applicationBaseUrl/images/logos/ $localRepoPath/images/logos/
-	Alias $applicationBaseUrl/images/preview.png $localRepoPath/images/preview.png
-	Alias $applicationBaseUrl/resources/ $localRepoPath/resources/
-	
 	# Load base codebase
 	Include $baseRepoPath/.httpd.conf.extract.txt
-	Use MacroOnlineAtlas "$applicationBaseUrl" "$baseRepoPath" "Populations Past" "$includePath"
+	Use MacroOnlineAtlas "$applicationBaseUrl" "$localRepoPath" "$baseRepoPath" "Populations Past" "$includePath"
 	
 </Macro>
