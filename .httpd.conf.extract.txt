@@ -17,6 +17,6 @@
 	
 	# Load base codebase
 	Include $baseRepoPath/.httpd.conf.extract.txt
-	Use MacroOnlineAtlas "$applicationBaseUrl" "$includePath" "$baseRepoPath" "Populations Past"
+	Use MacroOnlineAtlas "$applicationBaseUrl" "$baseRepoPath" "Populations Past" "$includePath"
 	
 </Macro>
