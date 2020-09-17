@@ -470,13 +470,13 @@ class populationspast extends onlineAtlas
 			  /* Domain-specific fields */
 			  
 			  `CEN` INT(11) NOT NULL COMMENT 'CEN (e.g. from CEN_1851)',
-			  `COUNTRY` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL COMMENT 'Country',
-			  `DIVISION` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL COMMENT 'Division',
-			  `REGCNTY` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL COMMENT 'County',
-			  `REGDIST` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL COMMENT 'Registration district',
-			  `SUBDIST` VARCHAR(255) COLLATE utf8_unicode_ci NOT NULL COMMENT 'Sub-district',
-			  `POP` INT(11) COLLATE utf8_unicode_ci NULL COMMENT 'Population',
-			  `ACRES` DECIMAL(14,7) COLLATE utf8_unicode_ci NULL COMMENT 'Acreage',
+			  `COUNTRY` VARCHAR(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Country',
+			  `DIVISION` VARCHAR(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Division',
+			  `REGCNTY` VARCHAR(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'County',
+			  `REGDIST` VARCHAR(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Registration district',
+			  `SUBDIST` VARCHAR(255) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Sub-district',
+			  `POP` INT(11) COLLATE utf8mb4_unicode_ci NULL COMMENT 'Population',
+			  `ACRES` DECIMAL(14,7) COLLATE utf8mb4_unicode_ci NULL COMMENT 'Acreage',
 		";
 		
 		# Add each data field
