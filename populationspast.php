@@ -273,20 +273,96 @@ class populationspast extends onlineAtlas
 					'grouping' => 'Age structure',
 				),
 				
-				'IRISH_BORN' => array (
-					'label' => 'Irish born',
-					'description' => 'People born in Ireland as a percentage of the total population',
-					'intervals' => '<1, 1 - <3, 3 - <5, 5 - <7, 7 - <9, 9 - <11, ≥11',
-					'grouping' => 'Migration',
-					'unavailable' => array (1871),
-				),
 				'SR' => array (
 					'label' => 'Sex ratio',
 					'description' => 'Number of working-age men per 100 working-age women',
 					'intervals' => '<75, 75 - <85, 85 - <95, 95 - <105, 105 - <115, 115 - <125, ≥125',
 					'grouping' => 'Migration',
 				),
-				// More migration variables coming soon!
+				
+				'LTM_10_F' => array (
+					'label' => 'Women born <10km away',
+					'description' => 'Women born <10km away from the place they were living as a percentage of all women',
+					'intervals' => '<30, 30 - <40, 40 - <50, 50 - <60, 60 - <70, 70 - <80, ≥80',
+					'grouping' => 'Migration',
+				),
+				
+				'LTM_10_M' => array (
+					'label' => 'Men born <10km away',
+					'description' => 'Men born <10km away from the place they were living as a percentage of all men',
+					'intervals' => '<30, 30 - <40, 40 - <50, 50 - <60, 60 - <70, 70 - <80, ≥80',
+					'grouping' => 'Migration',
+				),
+				
+				'LTM_1050_F' => array (
+					'label' => 'Women born 10-49km away',
+					'description' => 'Women born 10-49km away from the place they were living as a percentage of all women',
+					'intervals' => '<10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, 30 - <35, ≥35',
+					'grouping' => 'Migration',
+				),
+				
+				'LTM_1050_M' => array (
+					'label' => 'Men born 10-49km away',
+					'description' => 'Men born 10-49km away from the place they were living as a percentage of all men',
+					'intervals' => '<10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, 30 - <35, ≥35',
+					'grouping' => 'Migration',
+				),
+				
+				'LTM_50_F' => array (
+					'label' => 'Women born >50km away',
+					'description' => 'Women born ≥50km away from the place they were living as a percentage of all women',
+					'intervals' => '<2, 2 - <5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, ≥25',
+					'grouping' => 'Migration',
+				),
+				
+				'LTM_50_M' => array (
+					'label' => 'Men born >50km away',
+					'description' => 'Men born ≥50km away from the place they were living as a percentage of all men',
+					'intervals' => '<2, 2 - <5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, ≥25',
+					'grouping' => 'Migration',
+				),
+				
+				'IRL_F' => array (
+					'label' => 'Women born in Ireland',
+					'description' => 'Women born in Ireland as a percentage of all women',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'IRL_M' => array (
+					'label' => 'Men born in Ireland',
+					'description' => 'Men born in Ireland as a percentage of all men',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'SCT_F' => array (
+					'label' => 'Women born in Scotland',
+					'description' => 'Women born in Scotland as a percentage of all women',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'SCT_M' => array (
+					'label' => 'Men born in Scotland',
+					'description' => 'Men born in Scotland as a percentage of all men',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'FOREIGN_F' => array (
+					'label' => 'Women born overseas',
+					'description' => 'Women born in overseas as a percentage of all women',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'FOREIGN_M' => array (
+					'label' => 'Men born overseas',
+					'description' => 'Men born in overseas as a percentage of all men',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
 				
 				'HC1' => array (
 					'label' => 'SES 1: non-manual high skilled',
