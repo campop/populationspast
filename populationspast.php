@@ -285,6 +285,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born <10km away from the place they were living as a percentage of all women',
 					'intervals' => '<30, 30 - <40, 40 - <50, 50 - <60, 60 - <70, 70 - <80, ≥80',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'LTM_10_M' => array (
@@ -292,6 +293,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born <10km away from the place they were living as a percentage of all men',
 					'intervals' => '<30, 30 - <40, 40 - <50, 50 - <60, 60 - <70, 70 - <80, ≥80',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'LTM_1050_F' => array (
@@ -299,6 +301,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born 10-49km away from the place they were living as a percentage of all women',
 					'intervals' => '<10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, 30 - <35, ≥35',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'LTM_1050_M' => array (
@@ -306,6 +309,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born 10-49km away from the place they were living as a percentage of all men',
 					'intervals' => '<10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, 30 - <35, ≥35',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'LTM_50_F' => array (
@@ -313,6 +317,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born ≥50km away from the place they were living as a percentage of all women',
 					'intervals' => '<2, 2 - <5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, ≥25',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'LTM_50_M' => array (
@@ -320,6 +325,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born ≥50km away from the place they were living as a percentage of all men',
 					'intervals' => '<2, 2 - <5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, ≥25',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'IRL_F' => array (
@@ -327,6 +333,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born in Ireland as a percentage of all women',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'IRL_M' => array (
@@ -334,6 +341,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born in Ireland as a percentage of all men',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'SCT_F' => array (
@@ -341,6 +349,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born in Scotland as a percentage of all women',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'SCT_M' => array (
@@ -348,6 +357,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born in Scotland as a percentage of all men',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'FOREIGN_F' => array (
@@ -355,6 +365,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born in overseas as a percentage of all women',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'FOREIGN_M' => array (
@@ -362,6 +373,7 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born in overseas as a percentage of all men',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
+					'unavailable' => array (1871),
 				),
 				
 				'HC1' => array (
