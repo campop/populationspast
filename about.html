@@ -31,6 +31,7 @@
 		$('body.about #toggle h3').each(function() {
 			$(this).prepend ('<i class="fa fa-chevron-circle-right iconrotate"></i> ');
 			$(this).nextUntil('h2, h3').wrapAll('<div class="graybox" />');	// See: http://stackoverflow.com/questions/7968303/wrapping-a-series-of-elements-between-two-h2-tags-with-jquery
+			$(this).css('cursor','pointer');
 		});
 		
 		// Simple toggle, as jQuery Accordion seems not to work; see: http://www.jacklmoore.com/notes/jquery-accordion-tutorial/
