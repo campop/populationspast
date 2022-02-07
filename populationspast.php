@@ -12,7 +12,7 @@ class populationspast extends onlineAtlas
 			
 			// Application name
 			'applicationName' => 'Populations Past',
-			'pageHeader' => '<img id="logo" src="/images/logos/populationspast.png" alt="Populations Past &ndash; Atlas of Victorian and Edwardian Population" border="0" align="right" width="150" height="112" /> Populations Past &ndash;<br />Atlas of Victorian and Edwardian Population',
+			'pageHeader' => '<img id="logo" src="' . $this->baseUrl . '/images/logos/populationspast.png" alt="Populations Past &ndash; Atlas of Victorian and Edwardian Population" border="0" align="right" width="150" height="112" /> Populations Past &ndash;<br />Atlas of Victorian and Edwardian Population',
 			
 			// Database
 			'database' => 'populationspast',
