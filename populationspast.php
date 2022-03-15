@@ -557,12 +557,12 @@ class populationspast extends onlineAtlas
 		$sql = "
 			  /* Domain-specific fields */
 			  
-			  `CEN` INT(11) NOT NULL COMMENT 'CEN (e.g. from CEN_1851)',
-			  `COUNTRY` VARCHAR(255) NOT NULL COMMENT 'Country',
-			  `DIVISION` VARCHAR(255) NOT NULL COMMENT 'Division',
-			  `REGCNTY` VARCHAR(255) NOT NULL COMMENT 'County',
+			  `CEN` INT NULL COMMENT 'CEN (e.g. from CEN_1851)',
+			  `COUNTRY` VARCHAR(255) NULL COMMENT 'Country',
+			  `DIVISION` VARCHAR(255) NULL COMMENT 'Division',
+			  `REGCNTY` VARCHAR(255) NULL COMMENT 'County',
 			  `REGDIST` VARCHAR(255) NOT NULL COMMENT 'Registration district',
-			  `SUBDIST` VARCHAR(255) NOT NULL COMMENT 'Sub-district',
+			  `SUBDIST` VARCHAR(255) NULL COMMENT 'Sub-district',
 			  `POP` INT(11) NULL COMMENT 'Population',
 			  `ACRES` DECIMAL(14,7) NULL COMMENT 'Acreage',
 		";
