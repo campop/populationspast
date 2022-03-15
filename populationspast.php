@@ -125,23 +125,20 @@ class populationspast extends onlineAtlas
 				'TMFR' => array (
 					'label' => 'Total Marital Fertility Rate',
 					'description' => 'The average number of children per married woman',
-					'intervals' => '<4, 4 - <5, 5 - <6, 6 - <7, 7 - <8, 8 - <9, ≥9',
+					'intervals' => '<5, 5 - <6, 6 - <7, 7 - <8, 8 - <9, 9 - <10, ≥10',
 					'grouping' => 'Fertility',
-					'unavailable' => array (1871),
 				),
 				'LEGIT_RATE' => array (
 					'label' => 'Legitimate birth rate',
 					'description' => 'The number of legitimate births per 1,000 married women',
 					'intervals' => '<150, 150 - <175, 175 - <200, 200 - <225, 225 - <250, 250 - <275, ≥275',
 					'grouping' => 'Fertility',
-					'unavailable' => array (1871),
 				),
 				'ILEG_RATE' => array (
 					'label' => 'Illegitimate birth rate',
 					'description' => 'The number of illegitimate births per 1,000 unmarried women',
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Fertility',
-					'unavailable' => array (1871),
 				),
 				'ILEG_RATIO' => array (
 					'label' => 'Illegitimacy Ratio',
@@ -155,34 +152,30 @@ class populationspast extends onlineAtlas
 					'description' => 'The average age at marriage for women',
 					'intervals' => '<25, 25 - <26, 26 - <27, 27 - <28, 28 - <29, 29 - <30, ≥30',
 					'grouping' => 'Marriage',
-					'unavailable' => array (1871),
 				),
 				'M_SMAM' => array (
 					'label' => 'Age at marriage (male)',
 					'description' => 'The average age at marriage for men',
 					'intervals' => '<25, 25 - <26, 26 - <27, 27 - <28, 28 - <29, 29 - <30, ≥30',
 					'grouping' => 'Marriage',
-					'unavailable' => array (1871),
 				),
 				'F_CEL_4554' => array (
 					'label' => 'Celibacy (women)',
 					'description' => 'Never-married women as a percentage of all women aged 45 to 54',
 					'intervals' => '<5, 5 - <7, 7 - <9, 9 - <11, 11 - <13, 13 - <15, ≥15',
 					'grouping' => 'Marriage',
-					'unavailable' => array (1871),
 				),
 				'M_CEL_4554' => array (
 					'label' => 'Celibacy (men)',
 					'description' => 'Never-married men as a percentage of all men aged 45 to 54',
 					'intervals' => '<5, 5 - <7, 7 - <9, 9 - <11, 11 - <13, 13 - <15, ≥15',
 					'grouping' => 'Marriage',
-					'unavailable' => array (1871),
 				),
 				
 				'IMR' => array (
 					'label' => 'Infant Mortality Rate',
 					'description' => 'The number of children out of 1,000 born who died before their first birthday',
-					'intervals' => '<80, 80 - <100, 100 - <120, 120 - <140, 140 - <160, 160 - <180, ≥180',
+					'intervals' => '<60, 60 - <80, 80 - <110, 110 - <140, 140 - <160, 160 - <180, ≥180',
 					'grouping' => 'Mortality and health',
 				),
 				'ECMR' => array (
@@ -190,14 +183,12 @@ class populationspast extends onlineAtlas
 					'description' => 'The number of children dying out of 1,000 children aged 1 to 5',
 					'intervals' => '<20, 20 - <40, 40 - <60, 60 - <80, 80 - <100, 100 - <120, ≥120',
 					'grouping' => 'Mortality and health',
-					'unavailable' => array (1871),
 				),
 				'DOC' => array (
 					'label' => 'Doctors',
 					'description' => 'The number of doctors per 10,000 people',
 					'intervals' => '<2, 2 - <4, 4 - <6, 6 - <8, 8 - <10, 10 - <12, ≥12',
 					'grouping' => 'Mortality and health',
-					'unavailable' => array (1871),
 				),
 				
 				'SP_FAM' => array (
@@ -205,34 +196,29 @@ class populationspast extends onlineAtlas
 					'description' => 'Households containing a lone-parent family, as a percentage of all households',
 					'intervals' => '<2.5, 2.5 - <4, 4 - <5.5, 5.5 - <7.0, 7.0 - <8.5, 8.5 - <10, ≥10',
 					'grouping' => 'Households',
-					'unavailable' => array (1871),
 				),
 				'SINGLE_PER' => array (
 					'label' => 'Single person households',
 					'description' => 'Households containing just one person, as a percentage of all households',
 					'intervals' => '<3, 3 - <4, 4 - <5, 5 - <6, 6 - <7, 7 - <8, ≥8',
 					'grouping' => 'Households',
-					'unavailable' => array (1871),
 				),
 				'BOARD' => array (
 					'label' => 'Households with boarders',
 					'description' => 'Households containing at least one boarder, as a percentage of all households',
 					'intervals' => '<3, 3 - <6, 6 - <9, 9 - <12, 12 - <15, 15 - <18, ≥18',
 					'grouping' => 'Households',
-					'unavailable' => array (1871),
 				),
 				'HH_KIN' => array (
 					'label' => 'Households with kin',
 					'description' => 'Households containing people related to the head but not his/her immediate family, as percentage of all households',
 					'intervals' => '<1, 1 - <1.5, 1.5 - <2, 2 - <2.5, 2.5 - <3, 3 - <3.5, ≥3.5',
-					'unavailable' => array (1871),
 					'grouping' => 'Households',
 				),
 				'HOUSE_SERV' => array (
 					'label' => 'Households with live-in servants',
 					'description' => 'Households containing at least one live-in servant, as a percentage of all households',
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
-					'unavailable' => array (1871),
 					'grouping' => 'Households',
 				),
 				
@@ -285,7 +271,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born <10km away from the place they were living as a percentage of all women',
 					'intervals' => '<30, 30 - <40, 40 - <50, 50 - <60, 60 - <70, 70 - <80, ≥80',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'LTM_10_M' => array (
@@ -293,7 +278,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born <10km away from the place they were living as a percentage of all men',
 					'intervals' => '<30, 30 - <40, 40 - <50, 50 - <60, 60 - <70, 70 - <80, ≥80',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'LTM_1050_F' => array (
@@ -301,7 +285,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born 10-49km away from the place they were living as a percentage of all women',
 					'intervals' => '<10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, 30 - <35, ≥35',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'LTM_1050_M' => array (
@@ -309,7 +292,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born 10-49km away from the place they were living as a percentage of all men',
 					'intervals' => '<10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, 30 - <35, ≥35',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'LTM_50_F' => array (
@@ -317,7 +299,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born ≥50km away from the place they were living as a percentage of all women',
 					'intervals' => '<2, 2 - <5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, ≥25',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'LTM_50_M' => array (
@@ -325,7 +306,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born ≥50km away from the place they were living as a percentage of all men',
 					'intervals' => '<2, 2 - <5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, ≥25',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'IRL_F' => array (
@@ -333,7 +313,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born in Ireland as a percentage of all women',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'IRL_M' => array (
@@ -341,23 +320,20 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born in Ireland as a percentage of all men',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
-				'SCT_F' => array (
-					'label' => 'Women born in Scotland',
-					'description' => 'Women born in Scotland as a percentage of all women',
+				'GB_F' => array (
+					'label' => 'Women born in other parts of Great Britain (England and Wales or Scotland)',
+					'description' => 'Women born in other parts of Great Britain as a percentage of all women',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
-				'SCT_M' => array (
-					'label' => 'Men born in Scotland',
-					'description' => 'Men born in Scotland as a percentage of all men',
+				'GB_M' => array (
+					'label' => 'Men born in other parts of Great Britain (England and Wales or Scotland)',
+					'description' => 'Men born in other parts of Great Britain as a percentage of all men',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'FOREIGN_F' => array (
@@ -365,7 +341,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Women born in overseas as a percentage of all women',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'FOREIGN_M' => array (
@@ -373,7 +348,6 @@ class populationspast extends onlineAtlas
 					'description' => 'Men born in overseas as a percentage of all men',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
-					'unavailable' => array (1871),
 				),
 				
 				'HC1' => array (
@@ -381,91 +355,78 @@ class populationspast extends onlineAtlas
 					'description' => 'Non-manual high skilled men as a percentage of all working-age men',
 					'intervals' => '<1, 1 - <2, 2 - <3, 3 - <4, 4 - <5, 5 - <6, ≥6',
 					'grouping' => 'Socio-economic status',
-					'unavailable' => array (1871),
 				),
 				'HC2' => array (
 					'label' => 'SES 2: non-manual low skilled',
 					'description' => 'Non-manual medium or lower skilled men as a percentage of all working-age men',
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Socio-economic status',
-					'unavailable' => array (1871),
 				),
 				'HC3' => array (
 					'label' => 'SES 3: manual high skilled',
 					'description' => 'Manual high or medium skilled men as a percentage of all working-age men',
 					'intervals' => '<20, 20 - <25, 25 - <30, 30 - <35, 35 - <40, 40 - <45, ≥45',
 					'grouping' => 'Socio-economic status',
-					'unavailable' => array (1871),
 				),
 				'HC4' => array (
 					'label' => 'SES 4: manual low skilled',
 					'description' => 'Manual lower skilled men as a percentage of all working-age men',
 					'intervals' => '<10, 10 - <20, 20 - <30, 30 - <40, 40 - <50, 50 - <60, ≥60',
 					'grouping' => 'Socio-economic status',
-					'unavailable' => array (1871),
 				),
 				'HC5' => array (
 					'label' => 'SES 5: manual unskilled',
 					'description' => 'Manual unskilled men as a percentage of all working-age men',
 					'intervals' => '<20, 20 - <30, 30 - <40, 40 - <50, 50 - <60, 60 - <70, ≥70',
 					'grouping' => 'Socio-economic status',
-					'unavailable' => array (1871),
 				),
 				'SC1' => array (
 					'label' => "RG's class 1: professional",
 					'description' => "RG's social class 1 (professional and managerial workers) as a percentage of all working-age men",
 					'intervals' => '<1.5, 1.5 - <3, 3 - <4.5, 4.5 - <6, 6 - <7.5, 7.5 - <9, ≥9',
 					'grouping' => 'Social class - RG',
-					'unavailable' => array (1871),
 				),
 				'SC2' => array (
 					'label' => "RG's class 2: non-manual skilled",
 					'description' => "RG's social class 2 (skilled non-manual workers) as a percentage of all working-age men",
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Social class - RG',
-					'unavailable' => array (1871),
 				),
 				'SC3' => array (
 					'label' => "RG's class 3: manual skilled",
 					'description' => "RG's social class 3 (skilled workmen) as a percentage of all working-age men",
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Social class - RG',
-					'unavailable' => array (1871),
 				),
 				'SC4' => array (
 					'label' => "RG's class 4: manual semi-skilled",
 					'description' => "RG's social class 4 (semi-skilled workmen) as a percentage of all working-age men",
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Social class - RG',
-					'unavailable' => array (1871),
 				),
 				'SC5' => array (
 					'label' => "RG's class 5: manual unskilled",
 					'description' => "RG's social class 5 (unskilled workmen) as a percentage of all working-age men",
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Social class - RG',
-					'unavailable' => array (1871),
 				),
 				'SC6' => array (
 					'label' => "RG's class 6: textile workers",
 					'description' => "RG's social class 6 (textile workers) as a percentage of all working-age men",
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Social class - RG',
-					'unavailable' => array (1871),
 				),
 				'SC7' => array (
 					'label' => "RG's class 7: miners",
 					'description' => "RG's social class 7 (miners) as a percentage of all working-age men",
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Social class - RG',
-					'unavailable' => array (1871),
 				),
 				'SC8' => array (
 					'label' => "RG's class 8: agricultural labourers",
 					'description' => "RG's social class 8 (agricultural labourers) as a percentage of all working-age men",
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => 'Social class - RG',
-					'unavailable' => array (1871),
 				),
 				
 				'FMAR_PRATE' => array (
@@ -473,35 +434,30 @@ class populationspast extends onlineAtlas
 					'description' => 'Married women working as a percentage of all married women',
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => "Women's work",
-					'unavailable' => array (1871),
 				),
 				'FNM_PRATE' => array (
 					'label' => 'Single women working',
 					'description' => 'Single women working as a percentage of all single women',
 					'intervals' => '<40, 40 - <50, 50 - <60, 60 - <70, 70 - <80, 80 - <90, ≥90',
 					'grouping' => "Women's work",
-					'unavailable' => array (1871),
 				),
 				'FWID_PRATE' => array (
 					'label' => 'Widowed women working',
 					'description' => 'Widowed women working as a percentage of all widowed women',
 					'intervals' => '<40, 40 - <50, 50 - <60, 60 - <70, 70 - <80, 80 - <90, ≥90',
 					'grouping' => "Women's work",
-					'unavailable' => array (1871),
 				),
 				'F_DOM' => array (
 					'label' => 'Domestic servants (women)',
 					'description' => 'Domestic servants as a percentage of all employed working-age women',
 					'intervals' => '<10, 10 - <20, 20 - <30, 30 - <40, 40 - <50, 50 - <60, ≥60',
 					'grouping' => "Women's work",
-					'unavailable' => array (1871),
 				),
 				'F_TEX' => array (
 					'label' => 'Textile workers (female)',
 					'description' => 'Textile workers as a percentage of all employed working-age women',
 					'intervals' => '<1, 1 - <5, 5 - <10, 10 - <20, 20 - <30, 30 - <40, ≥40',
 					'grouping' => "Women's work",
-					'unavailable' => array (1871),
 				),
 				
 				'C_TEACHER' => array (
@@ -509,35 +465,30 @@ class populationspast extends onlineAtlas
 					'description' => 'Number of children per teacher',
 					'intervals' => '<25, 25 - <50, 50 - <75, 75 - <100, 100 - <125, 125 - <150, ≥150',
 					'grouping' => "Children's work and schooling",
-					'unavailable' => array (1871),
 				),
 				'F_CL_1013' => array (
 					'label' => 'Girls aged 10-13 working',
 					'description' => 'Number of girls in employment as a percentage of all girls aged 10-13',
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => "Children's work and schooling",
-					'unavailable' => array (1871),
 				),
 				'M_CL_1013' => array (
 					'label' => 'Boys aged 10-13 working',
 					'description' => 'Number of boys in employment as a percentage of all boys aged 10-13',
 					'intervals' => '<5, 5 - <10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, ≥30',
 					'grouping' => "Children's work and schooling",
-					'unavailable' => array (1871),
 				),
 				'F_CL_1418' => array (
 					'label' => 'Girls aged 14-18 working',
 					'description' => 'Number of girls in employment as a percentage of all girls aged 14-18',
 					'intervals' => '<20, 20 - <25, 25 - <30, 30 - <35, 35 - <40, 40 - <45, ≥45',
 					'grouping' => "Children's work and schooling",
-					'unavailable' => array (1871),
 				),
 				'M_CL_1418' => array (
 					'label' => 'Boys aged 14-18 working',
 					'description' => 'Number of boys in employment as a percentage of all boys aged 14-18',
 					'intervals' => '<20, 20 - <25, 25 - <30, 30 - <35, 35 - <40, 40 - <45, ≥45',
 					'grouping' => "Children's work and schooling",
-					'unavailable' => array (1871),
 				),
 			),
 		);
