@@ -207,7 +207,7 @@ class populationspast extends onlineAtlas
 				'SINGLE_PER' => array (
 					'label' => 'Single person households',
 					'description' => 'Households containing just one person, as a percentage of all households',
-					'intervals' => '<3, 3 - <4, 4 - <5, 5 - <6, 6 - <7, 7 - <8, ≥8',
+					'intervals' => '<3, 3 - <5, 5 - <7, 7 - <9, 9 - <11, 11 - <13, ≥13',
 					'grouping' => 'Households',
 				),
 				'BOARD' => array (
@@ -219,7 +219,7 @@ class populationspast extends onlineAtlas
 				'HH_KIN' => array (
 					'label' => 'Households with kin',
 					'description' => 'Households containing people related to the head but not his/her immediate family, as percentage of all households',
-					'intervals' => '<1, 1 - <1.5, 1.5 - <2, 2 - <2.5, 2.5 - <3, 3 - <3.5, ≥3.5',
+					'intervals' => '<10, 10 - <15, 15 - <20, 20 - <25, 25 - <30, 30 - <35, ≥35',
 					'grouping' => 'Households',
 				),
 				'HOUSE_SERV' => array (
