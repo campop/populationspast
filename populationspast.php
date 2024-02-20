@@ -11,7 +11,7 @@ class populationspast extends onlineAtlas
 		$defaults = array (
 			
 			// Application name
-			'applicationName' => 'Populations Past',
+			'applicationName' => 'Populations Past atlas',
 			'pageHeader' => '<img id="logo" src="' . $this->baseUrl . '/images/logos/populationspast.png" alt="Populations Past &ndash; Atlas of Victorian and Edwardian Population" border="0" align="right" width="150" height="112" /> Populations Past &ndash;<br />Atlas of Victorian and Edwardian Population',
 			
 			// Database
