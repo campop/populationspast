@@ -28,5 +28,5 @@ Martin Lucas-Smith, Department of Geography, University of Cambridge, 2017.
 License
 -------
 
-- Code license: GPL2
+- Code license: GPL3
 - Data license: To be determined
