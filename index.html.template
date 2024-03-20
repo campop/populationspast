@@ -6,8 +6,8 @@ $settings = array (
 	'geocoderApiKey' => 'YOUR_API_KEY',		// Obtain at https://www.cyclestreets.net/api/apply/
 );
 
-# Load and run the class
-require_once ('populationspast/populationspast.php');
+# Load and run the application
+require_once ('vendor/autoload.php');
 new populationspast ($settings);
 
 ?>

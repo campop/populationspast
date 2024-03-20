@@ -1,0 +1,13 @@
+{
+    "name": "campop/populationspast",
+    "description": "Atlas of Victorian and Edwardian Population",
+    "type": "project",
+    "license": "GPL-3.0-only",
+    "minimum-stability": "stable",
+    "require": {
+        "campop/online-atlas": "^1.0"
+    },
+    "autoload": {
+        "files": ["populationspast.php"]
+    }
+}

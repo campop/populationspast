@@ -9,24 +9,26 @@ Usage
 -----
 
 1. Clone the repository.
-2. Clone the [online atlas](https://github.com/campop/online-atlas) repository and set that up as documented there
-3. Create a copy of the index.html.template file as index.html, and fill in the parameters.
+2. Run `composer install` to install the PHP dependencies.
+3. Run `yarn install` to install the JS dependencies (which must be done after the PHP dependencies).
+4. Create a copy of the index.html.template file as index.html, and fill in the parameters.
 
 
 Dependencies
 ------------
 
-* [Online atlas and its dependencies](https://github.com/campop/online-atlas)
+* Composer package manager
+* Yarn package manager
 
 
 Author
 ------
 
-Martin Lucas-Smith, Department of Geography, University of Cambridge, 2017.
+Martin Lucas-Smith, Department of Geography, University of Cambridge, 2017-24.
 
 
 License
 -------
 
-- Code license: GPL3
+- Code license: GPL3.
 - Data license: To be determined

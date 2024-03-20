@@ -1,7 +1,6 @@
 <?php
 
 # Class implementing the Campop online atlas
-require_once ('online-atlas/onlineAtlas.php');
 class populationspast extends onlineAtlas
 {
 	# Function to assign defaults additional to the general application defaults
