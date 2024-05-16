@@ -564,7 +564,7 @@ class populationspast extends onlineAtlas
 		
 		# Add TYPE field
 		$sql .= "
-			  `TYPE` VARCHAR(255) NOT NULL COMMENT 'Type of place',
+			  `TYPE` VARCHAR(255) NULL COMMENT 'Type of place',
 		";
 		
 		# Return the SQL
