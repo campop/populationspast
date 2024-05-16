@@ -9,5 +9,10 @@
     },
     "autoload": {
         "files": ["populationspast.php"]
+    },
+    "scripts": {
+        "post-update-cmd": [
+            "sudo chown -R www-data vendor/campop/online-atlas/exports-tmp/"
+        ]
     }
 }
