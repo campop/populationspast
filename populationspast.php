@@ -331,16 +331,44 @@ class populationspast extends onlineAtlas
 					'grouping' => 'Migration',
 				),
 				
-				'GB_F' => array (
-					'label' => 'Women born in other parts of Great Britain (England and Wales or Scotland)',
-					'description' => 'Women born in other parts of Great Britain as a percentage of all women',
+				'SCT_F' => array (
+					'label' => 'Women born in Scotland',
+					'description' => 'Women born in Scotland as a percentage of all women',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
 				),
 				
-				'GB_M' => array (
-					'label' => 'Men born in other parts of Great Britain (England and Wales or Scotland)',
-					'description' => 'Men born in other parts of Great Britain as a percentage of all men',
+				'SCT_M' => array (
+					'label' => 'Men born in Scotland',
+					'description' => 'Men born in Scotland as a percentage of all men',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'ENG_F' => array (
+					'label' => 'Women born in England',
+					'description' => 'Women born in England as a percentage of all women',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'ENG_M' => array (
+					'label' => 'Men born in England',
+					'description' => 'Men born in England as a percentage of all men',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'WAL_F' => array (
+					'label' => 'Women born Wales',
+					'description' => 'Women born in Wales as a percentage of all women',
+					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
+					'grouping' => 'Migration',
+				),
+				
+				'WAL_M' => array (
+					'label' => 'Men born in Wales',
+					'description' => 'Men born in Wales as a percentage of all men',
 					'intervals' => '<0.4, 0.4 - <0.8, 0.8 - <1.5, 1.5 - <2, 2 - <3, 3 - <5, ≥5',
 					'grouping' => 'Migration',
 				),
@@ -555,7 +583,6 @@ class populationspast extends onlineAtlas
 		
 		# Run base main
 		parent::main ();
-		
 	}
 }
 
