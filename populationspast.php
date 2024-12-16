@@ -11,18 +11,13 @@ class populationspast extends onlineAtlas
 			
 			// Application name
 			'applicationName' => 'Populations Past atlas',
-			'pageHeader' => '<img id="logo" src="' . $this->baseUrl . '/images/logos/populationspast.png" alt="Populations Past &ndash; Atlas of Victorian and Edwardian Population" border="0" align="right" width="150" height="112" /> Populations Past &ndash;<br />Atlas of Victorian and Edwardian Population',
 			
-			// Database
-			'database' => 'populationspast',
-			'username' => 'populationspast',
-			'password' => NULL,
+			// Datasets
+			'years' => array (1851, 1861, 1871, 1881, 1891, 1901, 1911),
 			
-			// Style
-			'bodyClass' => 'campl-theme-1',
-			
-			// Geocoder
-			'geocoderApiKey' => NULL,		// Obtain at https://www.cyclestreets.net/api/apply/
+			// Area names
+			'areaNameField' => 'SUBDIST',
+			'areaNameFallbackField' => 'REGDIST',
 			
 			// First run message
 			'firstRunMessageHtml' =>
@@ -33,30 +28,12 @@ class populationspast extends onlineAtlas
 			// About page
 			'aboutFile' => $_SERVER['DOCUMENT_ROOT'] . '/about/index.html',
 			
+			// Geocoder
+			'geocoderApiKey' => NULL,		// Obtain at https://www.cyclestreets.net/api/apply/
+			
 			// CSV downloads
 			'downloadFilenameBase' => 'populationspast',
 			'downloadInitialNotice' => "This data has been produced by the 'Atlas of Victorian Fertility Decline' project (PI: A.M. Reid) with funding from the ESRC (ES/L015463/1), using an enhanced version of data from Schürer, K. and Higgs, E. (2014). Integrated Census Microdata (I-CeM), 1851-1911. [data collection]. Colchester, Essex: UK Data Archive [distributor]. SN: 7481, http://dx.doi.org/10.5255/UKDA-SN-7481-1.",
-			
-			// Default map location
-			'defaultLocation' => array (
-				'latitude' => 54.457,
-				'longitude' => -4.076,
-				'zoom' => 6,
-			),
-			
-			// Datasets
-			'datasets' => array (1851, 1861, 1871, 1881, 1891, 1901, 1911),
-			
-			// More detailed datasets when close in
-			'closeDatasets' => array (1851, 1861, 1871, 1881, 1891, 1901, 1911),
-			'closeName' => 'subdist',
-			'closeZoom' => 10,
-			'closeField' => 'SUBDIST',
-			'farField' => 'REGDIST',
-			'closeModeSimplifyFar' => 500,
-			
-			// Disable zoomed out mode
-			'zoomedOut' => false,
 			
 			// Unknown values
 			'colourUnknown' => false,
@@ -535,40 +512,6 @@ class populationspast extends onlineAtlas
 		
 		# Return the defaults
 		return $defaults;
-	}
-	
-	
-	# Database structure
-	public function databaseStructureSpecificFields ()
-	{
-		# Compile the SQL
-		$sql = "
-			  /* Domain-specific fields */
-			  
-			  `CEN` INT NULL COMMENT 'CEN (e.g. from CEN_1851)',
-			  `COUNTRY` VARCHAR(255) NULL COMMENT 'Country',
-			  `DIVISION` VARCHAR(255) NULL COMMENT 'Division',
-			  `REGCNTY` VARCHAR(255) NULL COMMENT 'County',
-			  `REGDIST` VARCHAR(255) NOT NULL COMMENT 'Registration district',
-			  `SUBDIST` VARCHAR(255) NULL COMMENT 'Sub-district',
-			  `POP` INT(11) NULL COMMENT 'Population',
-			  `ACRES` DECIMAL(14,7) NULL COMMENT 'Acreage',
-		";
-		
-		# Add each data field
-		foreach ($this->settings['fields'] as $field => $attributes) {
-			if (!isSet ($attributes['general']) && !in_array ($field, array ('TYPE', '_'))) {
-				$sql .= "\n\t\t\t  `{$field}` DECIMAL(14,7) NULL COMMENT '" . str_replace ("'", "\\'", $attributes['label']) . "',";
-			}
-		}
-		
-		# Add TYPE field
-		$sql .= "
-			  `TYPE` VARCHAR(255) NULL COMMENT 'Type of place',
-		";
-		
-		# Return the SQL
-		return $sql;
 	}
 	
 	

@@ -5,14 +5,16 @@
     "license": "GPL-3.0-only",
     "minimum-stability": "stable",
     "require": {
-        "campop/online-atlas": "^1.0.10"
+        "campop/online-atlas": "^2.0"
     },
     "autoload": {
         "files": ["populationspast.php"]
     },
     "scripts": {
         "post-update-cmd": [
-            "sudo chown -R www-data vendor/campop/online-atlas/exports-tmp/"
+            "sudo chown -R www-data vendor/campop/online-atlas/exports-tmp/",
+            "sudo chown -R www-data datasets/",
+            "sudo chown -R www-data exports/"
         ]
     }
 }

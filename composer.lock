@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "318d30438bc09bb53d5229790bdc3ebb",
+    "content-hash": "7b28c09df075340e41176d3ba24271c5",
     "packages": [
         {
             "name": "campop/online-atlas",
-            "version": "v1.0.10",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/campop/online-atlas.git",
-                "reference": "c37d1fcb9b2d3be8535e9df7baba73108def4183"
+                "reference": "45743e2131141b79c6e103012a6291bdc822e4d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/campop/online-atlas/zipball/c37d1fcb9b2d3be8535e9df7baba73108def4183",
-                "reference": "c37d1fcb9b2d3be8535e9df7baba73108def4183",
+                "url": "https://api.github.com/repos/campop/online-atlas/zipball/45743e2131141b79c6e103012a6291bdc822e4d0",
+                "reference": "45743e2131141b79c6e103012a6291bdc822e4d0",
                 "shasum": ""
             },
             "require": {
                 "libpurecontent/application": "^1.9",
-                "libpurecontent/frontcontrollerapplication": "^1.13.4"
+                "libpurecontent/frontcontrollerapplication": "^1.13"
             },
             "type": "library",
             "autoload": {
@@ -37,9 +37,9 @@
             "description": "Online atlas",
             "support": {
                 "issues": "https://github.com/campop/online-atlas/issues",
-                "source": "https://github.com/campop/online-atlas/tree/v1.0.10"
+                "source": "https://github.com/campop/online-atlas/tree/v2.0.0"
             },
-            "time": "2024-10-29T14:06:20+00:00"
+            "time": "2024-12-16T18:58:13+00:00"
         },
         {
             "name": "camunigeography/camunidata",
@@ -241,16 +241,16 @@
         },
         {
             "name": "libpurecontent/frontcontrollerapplication",
-            "version": "v1.13.7",
+            "version": "v1.13.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libpurecontent/frontcontrollerapplication.git",
-                "reference": "8abafe27f6f7c3e4baa8c56b3a57f4c578d99578"
+                "reference": "8dd4f639da873cb2c0846ae0f414a7364a7d000a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libpurecontent/frontcontrollerapplication/zipball/8abafe27f6f7c3e4baa8c56b3a57f4c578d99578",
-                "reference": "8abafe27f6f7c3e4baa8c56b3a57f4c578d99578",
+                "url": "https://api.github.com/repos/libpurecontent/frontcontrollerapplication/zipball/8dd4f639da873cb2c0846ae0f414a7364a7d000a",
+                "reference": "8dd4f639da873cb2c0846ae0f414a7364a7d000a",
                 "shasum": ""
             },
             "require": {
@@ -261,7 +261,7 @@
                 "libpurecontent/sinenomine": "^1.1",
                 "libpurecontent/ultimateform": "^1.29",
                 "libpurecontent/useraccount": "^1.7",
-                "smarty/smarty": "^4.5"
+                "smarty/smarty": "^4.5.3"
             },
             "type": "library",
             "autoload": {
@@ -281,9 +281,9 @@
             "description": "PHP library frontControllerApplication within the pureContent library suite",
             "support": {
                 "issues": "https://github.com/libpurecontent/frontcontrollerapplication/issues",
-                "source": "https://github.com/libpurecontent/frontcontrollerapplication/tree/v1.13.7"
+                "source": "https://github.com/libpurecontent/frontcontrollerapplication/tree/v1.13.8"
             },
-            "time": "2024-06-04T17:07:39+00:00"
+            "time": "2024-12-03T11:55:28+00:00"
         },
         {
             "name": "libpurecontent/image",
@@ -645,16 +645,16 @@
         },
         {
             "name": "pear/pear-core-minimal",
-            "version": "v1.10.15",
+            "version": "v1.10.16",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pear/pear-core-minimal.git",
-                "reference": "ce0adade8b97561656ace07cdaac4751c271ea8c"
+                "reference": "c0f51b45f50683bf5bbf558036854ebc9b54d033"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/ce0adade8b97561656ace07cdaac4751c271ea8c",
-                "reference": "ce0adade8b97561656ace07cdaac4751c271ea8c",
+                "url": "https://api.github.com/repos/pear/pear-core-minimal/zipball/c0f51b45f50683bf5bbf558036854ebc9b54d033",
+                "reference": "c0f51b45f50683bf5bbf558036854ebc9b54d033",
                 "shasum": ""
             },
             "require": {
@@ -690,7 +690,7 @@
                 "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=PEAR",
                 "source": "https://github.com/pear/pear-core-minimal"
             },
-            "time": "2024-03-16T18:41:45+00:00"
+            "time": "2024-11-24T22:27:58+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -815,16 +815,16 @@
         },
         {
             "name": "smarty/smarty",
-            "version": "v4.5.4",
+            "version": "v4.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "c11676e85aa71bc7c3cd9100f1655a9f4d14616e"
+                "reference": "c4851c12e34ff80073ddeb7d98b059d57dea9de2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/c11676e85aa71bc7c3cd9100f1655a9f4d14616e",
-                "reference": "c11676e85aa71bc7c3cd9100f1655a9f4d14616e",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/c4851c12e34ff80073ddeb7d98b059d57dea9de2",
+                "reference": "c4851c12e34ff80073ddeb7d98b059d57dea9de2",
                 "shasum": ""
             },
             "require": {
@@ -875,9 +875,9 @@
             "support": {
                 "forum": "https://github.com/smarty-php/smarty/discussions",
                 "issues": "https://github.com/smarty-php/smarty/issues",
-                "source": "https://github.com/smarty-php/smarty/tree/v4.5.4"
+                "source": "https://github.com/smarty-php/smarty/tree/v4.5.5"
             },
-            "time": "2024-08-14T20:04:35+00:00"
+            "time": "2024-11-21T22:06:22+00:00"
         }
     ],
     "packages-dev": [],
