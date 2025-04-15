@@ -11,7 +11,7 @@
         "files": ["populationspast.php"]
     },
     "scripts": {
-        "post-update-cmd": [
+        "post-autoload-dump": [
             "sudo chown -R www-data vendor/campop/online-atlas/exports-tmp/",
             "sudo chown -R www-data datasets/",
             "sudo chown -R www-data exports/"
