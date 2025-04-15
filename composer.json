@@ -12,9 +12,9 @@
     },
     "scripts": {
         "post-autoload-dump": [
-            "sudo chown -R www-data vendor/campop/online-atlas/exports-tmp/",
-            "sudo chown -R www-data datasets/",
-            "sudo chown -R www-data exports/"
+            "[ $(stat -c '%U' vendor/campop/online-atlas/exports-tmp/) = 'www-data' ] || sudo chown -R www-data vendor/campop/online-atlas/exports-tmp/",
+            "[ $(stat -c '%U' datasets/                              ) = 'www-data' ] || sudo chown -R www-data datasets/",
+            "[ $(stat -c '%U' exports/                               ) = 'www-data' ] || sudo chown -R www-data exports/"
         ]
     }
 }
