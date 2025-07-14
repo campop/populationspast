@@ -5,7 +5,11 @@
     "license": "GPL-3.0-only",
     "minimum-stability": "stable",
     "require": {
-        "campop/online-atlas": "^2.0"
+        "campop/online-atlas": "^2.0",
+        "libpurecontent/csv": "^1.6",
+        "libpurecontent/database": "^4.2",
+        "libpurecontent/frontcontrollerapplication": "^1.13",
+        "libpurecontent/ultimateform": "^1.31"
     },
     "autoload": {
         "files": ["populationspast.php"]
