@@ -1100,7 +1100,7 @@ class populationspast extends onlineAtlas
 				'VIO1544' => array (
 					'label' => 'Mortality from external causes age 15-44',
 					'labelShort' => 'Age 15-44',
-					'description' => 'Unknown causes (no cause offered or \'not known\' written)',
+					'description' => 'Number of deaths from external causes (accidents, violence and suicide) per 10,000 people aged 15-44 in the area',
 					'intervals' => '<2, 2 - <3, 3 - <4, 4 - <5, 5 - <6, 6 - <7, ≥7',
 					'grouping' => 'Mortality and health',
 					'subgroup' => 'Cause-specific: External causes',
@@ -1110,7 +1110,7 @@ class populationspast extends onlineAtlas
 				'VIO4564' => array (
 					'label' => 'Mortality from external causes age 45-64',
 					'labelShort' => 'Age 45-64',
-					'description' => 'Number of deaths aged 45-64 from external causes (accidents, violence and suicide)per 10,000 people aged 45-64 in the area',
+					'description' => 'Number of deaths aged 45-64 from external causes (accidents, violence and suicide) per 10,000 people aged 45-64 in the area',
 					'intervals' => '<4, 4 - <6, 6 - <7, 7 - <8, 8 - <9, 9 - <11, ≥11',
 					'grouping' => 'Mortality and health',
 					'subgroup' => 'Cause-specific: External causes',
