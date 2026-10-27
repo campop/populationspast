@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "campop/online-atlas",
-            "version": "v2.2.0",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/campop/online-atlas.git",
-                "reference": "bbbeb7fdc6567ef04076d8e81a6ed585178d95b2"
+                "reference": "9b12b3da5d116d9ba8317eb6119928ffbd6c1240"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/campop/online-atlas/zipball/bbbeb7fdc6567ef04076d8e81a6ed585178d95b2",
-                "reference": "bbbeb7fdc6567ef04076d8e81a6ed585178d95b2",
+                "url": "https://api.github.com/repos/campop/online-atlas/zipball/9b12b3da5d116d9ba8317eb6119928ffbd6c1240",
+                "reference": "9b12b3da5d116d9ba8317eb6119928ffbd6c1240",
                 "shasum": ""
             },
             "require": {
@@ -37,9 +37,9 @@
             "description": "Online atlas",
             "support": {
                 "issues": "https://github.com/campop/online-atlas/issues",
-                "source": "https://github.com/campop/online-atlas/tree/v2.2.0"
+                "source": "https://github.com/campop/online-atlas/tree/v2.2.1"
             },
-            "time": "2026-10-27T17:41:55+00:00"
+            "time": "2026-10-27T18:37:36+00:00"
         },
         {
             "name": "camunigeography/camunidata",
