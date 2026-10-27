@@ -4,6 +4,7 @@
 $settings = array (
 	'password' => 'YOUR_DATABASE_PASSWORD',
 	'geocoderApiKey' => 'YOUR_API_KEY',		// Obtain at https://www.cyclestreets.net/api/apply/
+	'locationsOverlayApiKey' => 'YOUR_API_KEY',		// Obtain at https://carto.com/basemaps/apikey/
 );
 
 # Load and run the application

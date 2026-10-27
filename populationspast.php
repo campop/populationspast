@@ -37,6 +37,9 @@ class populationspast extends onlineAtlas
 			// Geocoder
 			'geocoderApiKey' => NULL,		// Obtain at https://www.cyclestreets.net/api/apply/
 			
+			// Locations (names) overlay
+			'locationsOverlayApiKey' => NULL,		// Obtain at https://carto.com/basemaps/apikey/
+			
 			// CSV downloads
 			'downloadFilenameBase' => 'populationspast',
 			'downloadInitialNotice' => "This data has been produced by the 'Atlas of Victorian Fertility Decline' project (PI: A.M. Reid) with funding from the ESRC (ES/L015463/1), using an enhanced version of data from Schürer, K. and Higgs, E. (2014). Integrated Census Microdata (I-CeM), 1851-1911. [data collection]. Colchester, Essex: UK Data Archive [distributor]. SN: 7481, https://doi.org/10.5255/UKDA-SN-7481-1. Citation details: please see https://www.populationspast.org/acknowledgements/ .",	// This is only used when importing the data, not dynamically
